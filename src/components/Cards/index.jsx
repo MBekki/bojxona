@@ -23,11 +23,14 @@ const Card = () => {
     return (
         <div className='wrapper ' style={{ paddingBottom: '40px' }}>
             <div className='container'>
-                <div
-                    className='text-[35px] font-bold text-center '
-                    style={{ marginTop: '100px' }}
-                >
-                    Recent From Blog
+                <div className='flex justify-center'>
+                    <div
+                        className='text-[25px] font-bold text-center lg:w-[75%]'
+                        style={{ marginTop: '100px' }}
+                    >
+                        Oʻzbekiston Respublikasi bojxona organlarida rentgen
+                        qurilmalari yordamida aniqlangan BQB holatlari tahlili
+                    </div>
                 </div>
                 <div
                     className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5'

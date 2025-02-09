@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { NavLink } from 'react-router';
 import { IoClose } from 'react-icons/io5';
 import { IoMenu } from 'react-icons/io5';
+import Img from '../../assets/images/bojxonaservislogo.png';
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -15,13 +16,19 @@ const Navbar = () => {
             <div className='wrapper'>
                 <div className='container'>
                     <div className=' navbar  text-white w-full  px-2 flex justify-between items-center'>
-                        <div className='text-[30px] font-bold'>Logo</div>
-                        <div className='hidden md:flex gap-[25px] text-[18px]'>
+                        <div className='text-[30px] font-bold'>
+                            {/* <img
+                                src={Img}
+                                className='w-[70px] h-[70px] bg-white rounded-full'
+                                alt=''
+                            /> */}
+                        </div>
+                        {/* <div className='hidden md:flex gap-[25px] text-[18px]'>
                             <NavLink to={'/'}>Home</NavLink>
                             <NavLink to={'/'}>About</NavLink>
                             <NavLink to={'/'}>Service</NavLink>
                             <NavLink to={'/'}>Contact</NavLink>
-                        </div>
+                        </div> */}
                         <button
                             onClick={toggleMenu}
                             className='p-2 text-white  rounded-md block md:hidden'
