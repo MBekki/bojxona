@@ -1,0 +1,66 @@
+@import 'tailwindcss';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+.container {
+    max-width: 1220px;
+}
+
+.header {
+    background: linear-gradient(#00000091, #000000ac),
+        url(https://preview.colorlib.com/theme/skwela/images/big_image_1.jpg.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+}
+.navbar {
+    padding: 10px 0px;
+}
+.myshadow {
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.44);
+}
+
+.open-menu {
+    padding: 16px;
+}
+.open-menu li {
+    padding: 5px;
+}
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+td {
+    text-align: center;
+}
+
+.slider {
+    position: relative !important;
+    padding: 30px !important;
+}
+.next {
+    transform: scale(1.8);
+    position: absolute !important;
+}
+.prev {
+    transform: scale(1.8);
+    position: absolute !important;
+}
+@media screen and (max-width: 1320px) {
+    .container {
+        max-width: 90%;
+    }
+}
