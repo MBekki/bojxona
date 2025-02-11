@@ -6,12 +6,12 @@ const Header = () => {
     return (
         <div className='header'>
             <Navbar />
-            <div className='content flex justify-center flex-col items-center h-[80%] text-white'>
+            <div className=' flex justify-center flex-col items-center h-[80%] text-white'>
                 <div className='flex flex-col items-center gap-2'>
-                    <div>
+                    <div className='w-[250px] h-[250px]'>
                         <img
                             src={Img}
-                            className='w-[250px] h-[250px] bg-white rounded-full'
+                            className=' bg-white rounded-full w-full h-full'
                             alt=''
                         />
                     </div>

@@ -15,7 +15,7 @@ const Navbar = () => {
         <>
             <div className='wrapper'>
                 <div className='container'>
-                    <div className=' navbar  text-white w-full  px-2 flex justify-between items-center'>
+                    <div className='   text-white w-full  px-2 flex justify-between items-center'>
                         <div className='text-[30px] font-bold'>
                             {/* <img
                                 src={Img}
@@ -29,12 +29,12 @@ const Navbar = () => {
                             <NavLink to={'/'}>Service</NavLink>
                             <NavLink to={'/'}>Contact</NavLink>
                         </div> */}
-                        <button
+                        {/* <button
                             onClick={toggleMenu}
                             className='p-2 text-white  rounded-md block md:hidden'
                         >
                             <IoMenu className='text-[28px]' />
-                        </button>
+                        </button> */}
                     </div>
                 </div>
             </div>
